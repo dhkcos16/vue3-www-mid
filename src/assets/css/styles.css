@@ -1,0 +1,117 @@
+/* src/assets/css/style.css */
+/* 제주돌담체 */
+@font-face {
+  font-family: "EF_jejudoldam";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2210-EF@1.0/EF_jejudoldam.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+/* 라인 시드체 */
+@font-face {
+  font-family: "LINESeedKR-Bd";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/LINESeedKR-Bd.woff2")
+    format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "LINESeedKR-Bd";
+  font-size: 1.2rem;
+}
+a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+img {
+  display: block;
+  max-width: 100%;
+  object-fit: cover;
+}
+.snb {
+  text-align: left;
+  font-size: 1rem;
+}
+.nav-item + .nav-item {
+  margin-left: 1em;
+}
+.container {
+  font-family: "EF_jejudoldam";
+  text-align: center;
+}
+[class^="col"] {
+  min-height: 60vh;
+  background: linear-gradient(to right bottom, transparent 0%, #eee 100%);
+}
+.swiper-bigBnrArea {
+  position: relative;
+  font-family: "LINESeedKR-Bd";
+  width: calc(100% - 245px);
+}
+.swiper-smBnrArea {
+  position: relative;
+  width: 235px;
+}
+.swiper-smBnrArea .swiper {
+  height: 100%;
+  background: #fafbfc;
+  border: 1px solid #03c75a;
+}
+.swiper-smBnrArea .swiper-pagination-fraction {
+  color: #000;
+}
+.swiper-bigBnrArea .swiper-pagination-bullet {
+  background-color: transparent;
+  border: none;
+  width: auto;
+  height: auto;
+  padding: 0;
+  margin: 0;
+}
+.swiper-bigBnrArea .swiper-pagination {
+  bottom: 0 !important;
+  background: rgba(34, 34, 34, 0.5);
+}
+.swiper-bigBnrArea .swiper-pagination {
+  position: absolute;
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  bottom: 0;
+  z-index: 2;
+}
+.swiper-bigBnrArea .swiper-pagination li {
+  display: table-cell;
+}
+.swiper-bigBnrArea .swiper-pagination li a {
+  position: relative;
+  display: block;
+  height: 40px;
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 0.9rem;
+  line-height: 40px;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+}
+.swiper-bigBnrArea .swiper-pagination li a:hover {
+  color: #fff;
+}
+.swiper-bigBnrArea .swiper-pagination li:not(:first-child) a::before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 12px;
+  top: 13px;
+  left: 0px;
+  background: rgba(255, 255, 255, 0.3);
+}
+.swiper-bigBnrArea .swiper-pagination-bullet.swiper-pagination-bullet-active a {
+  color: #fff;
+}
