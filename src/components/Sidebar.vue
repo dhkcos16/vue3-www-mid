@@ -8,7 +8,7 @@
         class="list-group-item list-group-item-action d-flex w-100 justify-content-between align-items-center"
       >
         <span style="word-break: keep-all">{{ menu }}</span>
-        <span class="material-icons keyboard_arrow_down ml-2">
+        <span class="material-icons keyboard_arrow_down ml-1">
           keyboard_arrow_down
         </span>
       </a>

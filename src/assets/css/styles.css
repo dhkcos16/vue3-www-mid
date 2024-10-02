@@ -1,12 +1,4 @@
 /* src/assets/css/style.css */
-/* 제주돌담체 */
-@font-face {
-  font-family: "EF_jejudoldam";
-  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2210-EF@1.0/EF_jejudoldam.woff2")
-    format("woff2");
-  font-weight: normal;
-  font-style: normal;
-}
 /* 라인 시드체 */
 @font-face {
   font-family: "LINESeedKR-Bd";
@@ -42,7 +34,6 @@ img {
   margin-left: 1em;
 }
 .container {
-  font-family: "EF_jejudoldam";
   text-align: center;
 }
 [class^="col"] {
