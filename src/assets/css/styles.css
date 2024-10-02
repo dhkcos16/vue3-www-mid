@@ -7,13 +7,21 @@
   font-weight: 700;
   font-style: normal;
 }
+/* 수트체 */
+@font-face {
+  font-family: "SUIT-Regular";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Regular.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 body {
-  font-family: "LINESeedKR-Bd";
+  font-family: "SUIT-Regular";
   font-size: 1.2rem;
 }
 a {
@@ -26,7 +34,11 @@ img {
   max-width: 100%;
   object-fit: cover;
 }
+.nav-item a {
+  font-family: "LINESeedKR-Bd";
+}
 .snb {
+  font-family: "LINESeedKR-Bd";
   text-align: left;
   font-size: 1rem;
 }
