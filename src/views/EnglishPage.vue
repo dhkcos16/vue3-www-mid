@@ -1,10 +1,10 @@
 <template>
-  <div class="subTopBnrImg">
+  <a href="javascript:;" class="subTopBnrImg">
     <img
       src="//cdata.milkt.co.kr/UploadFile/BrandWebBanner/a4504d0d-547a-4451-a7aa-f2a09fd6538320240930.jpg"
       alt=""
     />
-  </div>
+  </a>
   <div class="container">
     <div class="row">
       <Sidebar :snbMenus="snbMenus" />
