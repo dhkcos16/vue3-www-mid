@@ -2,8 +2,7 @@
   <div class="d-flex justfy-content-between align-items-center">
     <a class="btn btn-primary w-50" href="#" role="button">강좌 한눈에 보기</a>
     <div
-      class="input-group ml-2 p-2 d-flex justfy-content-between align-items-center"
-      style="background-color: #ebf3ff"
+      class="input-group ml-2 p-2 d-flex justfy-content-between align-items-center bg-colorB"
     >
       <label
         for="form-control"

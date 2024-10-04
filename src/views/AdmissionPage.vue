@@ -10,6 +10,10 @@
       <Sidebar :snbMenus="snbMenus" />
       <div class="col-7">
         입시전략
+        <a class="btn bg-colorB" href="#" role="button">
+          단계별 입시 전략으로 합격 완성!
+          <strong class="font-colorA">일반/특목 컨설팅 프로그램</strong>
+        </a>
         <OnetwoSwiper />
       </div>
       <div class="col">quickmenu</div>

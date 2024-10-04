@@ -27,12 +27,18 @@ body {
 a {
   display: block;
   width: 100%;
-  height: 100%;
 }
 img {
   display: block;
   max-width: 100%;
   object-fit: cover;
+}
+.bg-colorB {
+  background-color: #ebf3ff;
+}
+.font-colorA {
+  font-family: "LINESeedKR-Bd";
+  color: #2272ec;
 }
 .nav-item a {
   font-family: "LINESeedKR-Bd";
