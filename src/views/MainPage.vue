@@ -1,9 +1,16 @@
 <template>
+  <div class="subTopBnrImg">
+    <img
+      src="//cdata.milkt.co.kr/UploadFile/BrandWebBanner/f9854051-2687-415b-bb85-69b0e65dcc9320240930.jpg"
+      alt=""
+    />
+  </div>
   <div class="container">
     <div class="row">
       <Sidebar :snbMenus="snbMenus" />
       <div class="col-7">
         내신완성
+        <SearchBar />
         <OnetwoSwiper />
       </div>
       <div class="col">quickmenu</div>
@@ -14,11 +21,13 @@
 <script>
 import OnetwoSwiper from "@/components/OnetwoSwiper.vue";
 import Sidebar from "@/components/Sidebar.vue";
+import SearchBar from "@/components/SearchBar.vue";
 import { reactive } from "vue";
 export default {
   components: {
     Sidebar,
     OnetwoSwiper,
+    SearchBar,
   },
   setup() {
     const snbMenus = reactive([

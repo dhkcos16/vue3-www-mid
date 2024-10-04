@@ -1,13 +1,16 @@
 <template>
+  <div class="subTopBnrImg">
+    <img
+      src="//cdata.milkt.co.kr/UploadFile/BrandWebBanner/91a827e4-0303-44e4-90e9-bd790d69f2f120241002.jpg"
+      alt=""
+    />
+  </div>
   <div class="container">
     <div class="row">
       <Sidebar :snbMenus="snbMenus" />
       <div class="col-7">
         입시전략
-        <OnetwoSwiper
-          :bigBnrSwipers="bigBnrSwipers"
-          :smBnrSwipers="smBnrSwipers"
-        />
+        <OnetwoSwiper />
       </div>
       <div class="col">quickmenu</div>
     </div>
