@@ -1,8 +1,10 @@
 <template>
   <div class="d-flex justfy-content-between align-items-center">
-    <a class="btn btn-primary w-50" href="#" role="button">강좌 한눈에 보기</a>
+    <a class="btn btn-primary w-50" href="#" role="button" style="color: #fff"
+      >강좌 한눈에 보기</a
+    >
     <div
-      class="input-group ml-2 p-2 d-flex justfy-content-between align-items-center bg-colorB"
+      class="input-group ml-2 p-2 d-flex justfy-content-between align-items-center bg-secondary"
     >
       <label
         for="form-control"

@@ -6,14 +6,15 @@
     />
   </a>
   <div class="container">
-    <div class="row">
-      <Sidebar :snbMenus="snbMenus" />
-      <div class="col-7">
-        내신완성
+    <div class="row justify-content-center">
+      <div class="col-2 snb pt-4">
+        <Sidebar :snbMenus="snbMenus" />
+      </div>
+      <div class="col-7 pt-4">
         <SearchBar />
         <OnetwoSwiper />
       </div>
-      <div class="col">quickmenu</div>
+      <div class="col-2">quickmenu</div>
     </div>
   </div>
 </template>

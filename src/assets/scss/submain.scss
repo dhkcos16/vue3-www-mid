@@ -1,0 +1,71 @@
+$theme-colors: (
+  "primary": #2272ec,
+  "secondary": #ebf3ff,
+);
+@import "~bootstrap/scss/bootstrap";
+
+.swiper-smBnrArea {
+  position: relative;
+  width: 235px;
+  & .swiper {
+    height: 100%;
+    background: #fafbfc;
+    border: 1px solid #03c75a;
+    &-pagination-fraction {
+      color: #000;
+    }
+  }
+}
+
+.swiper-bigBnrArea {
+  position: relative;
+  font-family: "LINESeedKR-Bd";
+  max-width: 475px;
+  & .swiper-pagination {
+    bottom: 0 !important;
+    background: rgba(34, 34, 34, 0.5);
+    position: absolute;
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    bottom: 0;
+    z-index: 2;
+    & li {
+      display: table-cell;
+      & a {
+        position: relative;
+        display: block;
+        height: 40px;
+        color: rgba(255, 255, 255, 0.4);
+        font-size: 0.9rem;
+        line-height: 40px;
+        text-decoration: none;
+        text-align: center;
+        cursor: pointer;
+        &:hover {
+          color: #fff;
+        }
+      }
+      &:not(:first-child) a::before {
+        content: "";
+        position: absolute;
+        width: 1px;
+        height: 12px;
+        top: 13px;
+        left: 0px;
+        background: rgba(255, 255, 255, 0.3);
+      }
+    }
+    &-bullet {
+      background-color: transparent;
+      border: none;
+      width: auto;
+      height: auto;
+      padding: 0;
+      margin: 0;
+    }
+    &-bullet.swiper-pagination-bullet-active a {
+      color: #fff;
+    }
+  }
+}

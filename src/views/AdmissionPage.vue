@@ -6,17 +6,18 @@
     />
   </a>
   <div class="container">
-    <div class="row">
-      <Sidebar :snbMenus="snbMenus" />
-      <div class="col-7">
-        입시전략
-        <a class="btn bg-colorB" href="#" role="button">
+    <div class="row justify-content-center">
+      <div class="col-2 snb pt-4">
+        <Sidebar :snbMenus="snbMenus" />
+      </div>
+      <div class="col-7 pt-4">
+        <a class="btn bg-secondary" href="#" role="button">
           단계별 입시 전략으로 합격 완성!
           <strong class="font-colorA">일반/특목 컨설팅 프로그램</strong>
         </a>
         <OnetwoSwiper />
       </div>
-      <div class="col">quickmenu</div>
+      <div class="col-2">quickmenu</div>
     </div>
   </div>
 </template>
