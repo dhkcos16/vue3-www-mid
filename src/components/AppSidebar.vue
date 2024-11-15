@@ -14,7 +14,11 @@
     </div> -->
 
   <div class="accordion" id="accordionExample">
-    <div class="accordion-item" v-for="(menu, menuIdx) in snbMenus" :key="menu">
+    <div
+      class="accordion-item"
+      v-for="(menu, menuIdx) in snbMenus"
+      :key="menuIdx"
+    >
       <h2 class="accordion-header" :id="`heading-${menuIdx}`">
         <button
           class="accordion-button"
@@ -22,7 +26,7 @@
           type="button"
           data-bs-toggle="collapse"
           :data-bs-target="`#collapse-${menuIdx}`"
-          :aria-expanded="activeIndex === menuIdx ? 'true' : 'false'"
+          :aria-expanded="activeIndex === menuIdx"
           :aria-controls="`collapse-${menuIdx}`"
           @click="toggleShow(menuIdx)"
         >

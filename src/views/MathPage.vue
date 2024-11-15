@@ -21,7 +21,7 @@
 
 <script>
 import OnetwoSwiper from "@/components/OnetwoSwiper.vue";
-import Sidebar from "@/components/Sidebar.vue";
+import Sidebar from "@/components/AppSidebar.vue";
 import SearchBar from "@/components/SearchBar.vue";
 import { reactive } from "vue";
 export default {
