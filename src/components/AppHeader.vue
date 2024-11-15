@@ -1,6 +1,6 @@
 <template>
   <header class="appHeader">
-    <img src="../assets/images/appHeader.jpg" alt="appHeader" />
+    <img src="@/assets/images/appHeader.jpg" alt="appHeader" />
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <ul class="navbar-nav d-flex justify-content-center flex-fill">
         <li
@@ -49,9 +49,7 @@ export default {
       { name: "studyRoom", label: "나의 학습방", disabled: true },
     ];
 
-    const isActive = (routeName) => {
-      return route.name === routeName;
-    };
+    const isActive = (routeName) => route.name?.startsWith(routeName);
 
     return { isActive, navItems };
   },
